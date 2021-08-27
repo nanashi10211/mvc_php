@@ -23,6 +23,7 @@ $url = $_SERVER['QUERY_STRING'];
 
 if ($router->match($url)) {
     echo "<pre>";
+    echo "Hello hunter";
     var_dump($router->getParams());
     echo "</pre>";
 } else {

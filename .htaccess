@@ -1,6 +1,6 @@
 
 RewriteEngine On
-RewriteBase https://mvcframe.herokuapp.com/mvcframe
+RewriteBase https://mvcframe.herokuapp.com/kalinchakma/mvc_php
 
 RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
 RewriteRule ^ %1 [L,NE,R=302]

@@ -9,8 +9,8 @@ $router = new Router();
 // add the routes
 
 $router->add('', ['controller' => 'Home', 'action' => 'index']);
-$router->add('posts', ['controller' => 'Posts', 'action' => 'index']);
-$router->add('posts/new', ['controller' => 'Posts', 'action' => 'new']);
+$router->add('/posts', ['controller' => 'Posts', 'action' => 'index']);
+$router->add('/posts/new', ['controller' => 'Posts', 'action' => 'new']);
 
 // display routing table
 // echo '<pre>';
